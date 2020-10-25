@@ -1,0 +1,66 @@
+
+#promptCompat {
+    display: none;
+}
+
+#promptCompat.no_dialog {
+    box-shadow: 0 0 5px 2px red;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.boutonsfermer{
+  margin-left: 230px;
+  border: none;
+  text-align: center;
+  background: rgba(255, 0, 0, 0.55);
+  border-radius: 15px;
+  font-size: 20px;
+}
+.boutonsfermer:hover {
+  box-shadow: 0 2px 12px 0 rgba(255, 0, 0, 1);
+}
+
+input[type="nom"],
+textarea,
+select {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    outline: none;
+    display: block;
+    width: 100%;
+    padding: 3px;
+    border: none;
+    /*border-bottom: 1px solid #008DAA;*/
+    background-color: rgba(255, 255, 255, 0.27);
+    border-radius: 25px;
+    height: 45px;
+    font-size: 17px;
+    color: black;
+}
+::placeholder {
+  color: black;
+}
+
+fieldset{
+  border: none;
+}
+
+legend {
+  font-size: 25px;
+}
+
+dialog {
+    border-radius: 35px;
+    border: none;
+    background-color: rgb(132, 133, 132);
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+}
+
+dialog::backdrop {
+    background-color: rgba(0, 0, 0, 0.6);
+}

@@ -1,0 +1,149 @@
+html, body {
+    background-color: rgb(77, 76, 76);
+    color: #d9d9d9;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    margin: 0;
+    width: 100%;
+}
+
+.div1{
+  height: 8vh;
+  margin-top: 1.5%;
+}
+
+.select {
+  float: left;
+  margin-left: 5%;
+}
+
+.bouton {
+  border: none;
+  margin: 5px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 15px;
+  font-size: 20px;
+  float: left;
+}
+
+.boutona {
+  border: none;
+  margin: 5px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 15px;
+  font-size: 20px;
+}
+
+.boutonsposte {
+  border: none;
+  margin: 5px;
+  text-align: center;
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.32);
+  border-radius: 15px;
+  font-size: 20px;
+  float: left;
+}
+.boutonsposte:hover {
+  box-shadow: 0 2px 12px 0 rgba(255, 255, 255, 0.27);
+}
+
+.boutonsattribution {
+  float: right;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.32);
+  border-radius: 15px;
+  font-size: 15px;
+}
+.boutonsattribution:hover {
+  box-shadow: 0 2px 12px 0 rgba(255, 255, 255, 0.27);
+}
+
+.boutonsposte:hover {
+  box-shadow: 0 0 12px 0 rgba(255, 255, 255, 0.27);
+}
+
+.boutonsattribution:hover {
+  box-shadow: 0 0 12px 0 rgba(255, 255, 255, 0.27);
+}
+
+.button-s {
+  margin-left: 25px;
+  float: right;
+  margin-top: 3px;
+  border: 12px;
+  border-radius: 20px;
+  background: rgba(255, 0, 0, 0.55);
+  font-size: 16px;
+  font-weight: lighter;
+  padding: 3px 7px;
+  text-align: center;
+  border: 18px;
+  border: 1px solid rgba(255, 0, 0, 1);
+}
+.button-s:hover {
+  box-shadow: 0 2px 12px 0 rgba(255, 0, 0, 1);
+}
+
+.sb
+{
+  /*border: 12px;*/
+  color: black;
+  text-decoration: none;
+  border-radius: 20px;
+  background: rgba(11, 178, 145, 0.555);
+  font-size: 15px;
+  padding: 3px 7px;
+  text-align: center;
+  /*border: 18px;*/
+  border: 1px solid rgba(0, 255, 238, 0.473);
+}
+.sb:hover {
+  box-shadow: 0 2px 12px 0 rgba(11, 179, 145, 1);
+}
+
+.date {
+  text-align: center;
+  margin: 5px;
+  background-color: rgba(255, 255, 255, 0.32);
+  padding: 3px;
+  border-radius: 15px;
+  border: none;
+  font-size: 20px;
+}
+
+table{
+  align-items: center;
+}
+
+.donne {
+  margin-left: 10vh;
+}
+
+ /*card*/
+
+ .card {
+   background-color: rgba(135, 132, 132, 1);
+   box-shadow: 0 2px 8px 0 rgba(255, 255, 255, 0.2);
+   transition: 0.3s;
+   border-radius: 15px;
+ }
+
+ .card:hover {
+   box-shadow: 0 2px 12px 0 rgba(255, 255, 255, 0.27);
+ }
+
+ .container {
+   padding: 2px 16px;
+ }
+
+li{
+  list-style: none;
+  float: left;
+  padding: 10px;
+}

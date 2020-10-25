@@ -13,7 +13,7 @@
   <body>
 
 
-            <div class="nav">
+        <!--    <div class="nav">
 
                 <ul>
 
@@ -29,7 +29,7 @@
 
                 </ul>
 
-            </div>
+            </div>-->
 
         <div class="flex-center position-ref full-height">
 

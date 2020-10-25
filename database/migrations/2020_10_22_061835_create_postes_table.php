@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateAttributionsTable extends Migration
+class CreatePostesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,10 +13,9 @@ class CreateAttributionsTable extends Migration
      */
     public function up()
     {
-        Schema::create('attributions', function (Blueprint $table) {
+        Schema::create('postes', function (Blueprint $table) {
             $table->id();
-            $table->string('nom');
-            /*$table->string('poste');*/
+            $table->string('nomposte');
             $table->timestamps();
         });
     }
@@ -28,6 +27,6 @@ class CreateAttributionsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('attributions');
+        Schema::dropIfExists('postes');
     }
 }

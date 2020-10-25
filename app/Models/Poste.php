@@ -9,5 +9,5 @@ class Poste extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['id','nom'];
+    protected $fillable = ['id','nomposte'];
 }
